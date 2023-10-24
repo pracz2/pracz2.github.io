@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'playfair Display', sans-serif;
+    max-width: 70.5rem;
+    background-color: #979E5A;
+    color: #3C4054;
+    line-height: 1.5;
+    margin: 3rem auto;
+
+}
+
+header{
+    margin: 0;
+    font-family: 'playfair Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1,
+nav {
+    color: #3C4054;
+    font-size: 12.5rem;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    color: #3C4054;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a{ 
+    color:#3C4054;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+}
+
+a h2:hover{ 
+    color: #EEB079;
+}
+
+
+a h2:visited{
+    color: #EEB079;
+}
+
+nav{
+    margin: 0;
+    font-family: 'playfair Display', sans-serif;
+}
+
+
+main{
+    margin: 0;
+    font-family: 'playfair Display', sans-serif;
+}
+
+footer{
+    font-family: 'playfair Display', sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #EADFAF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:auto;
+    height: 4rem;
+    margin: auto;
+    background-color: #EEB079;
+}
+
+.selected{
+    color: #EEB079;
+}
