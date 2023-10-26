@@ -7,7 +7,7 @@ html{
 body{
     font-family: 'playfair Display', sans-serif;
     max-width: 80rem;
-    background-color: #C8FFCF;
+    background-color: #99170396;
     color: #3C4054;
     line-height: 1.5;
     margin: 3rem auto;
@@ -19,7 +19,9 @@ section{
     grid-template-columns: repeat (12, 1fr);
     grid-column-gap: 1.5rem;
     grid-auto-flow: dense;
-    border: dotted #EEB079;
+    padding: 1rem;
+    border: dotted #99170396;
+    border-width: 1rem;
 }
 
 header{
@@ -27,7 +29,7 @@ header{
     font-family: 'playfair Display', sans-serif;
     display: flex;
     align-items: left;
-    background-color: #EADFAF;
+    background-color: #d6f9db;
     justify-content: space-around;
 }
 
@@ -88,17 +90,20 @@ footer{
     width:auto;
     height: 4rem;
     margin: auto;
-    background-color: #EADFAF;
+    background-color: #d6f9db;
 }
 
 #splashlogo{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 2rem;
+    border-width: 4rem;
+    border-color:  #d6f9db;
 }
 
 .selected{
-    color: #EEB079;
+    color: #ea9c5893;
 }
 
 #byline{
@@ -150,4 +155,10 @@ footer{
 img{
     max-width: 100%;
     max-height: 800px;
+}
+
+#bio{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
