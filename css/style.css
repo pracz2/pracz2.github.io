@@ -7,7 +7,7 @@ html{
 body{
     font-family: 'playfair Display', sans-serif;
     max-width: 80rem;
-    background-color: #99170396;
+    background-color: #d6f9db;
     color: #3C4054;
     line-height: 1.5;
     margin: 3rem auto;
@@ -20,7 +20,7 @@ section{
     grid-column-gap: 1.5rem;
     grid-auto-flow: dense;
     padding: 1rem;
-    border: dotted #99170396;
+    border: dotted #3C4054;
     border-width: 1rem;
 }
 
@@ -29,14 +29,18 @@ header{
     font-family: 'playfair Display', sans-serif;
     display: flex;
     align-items: left;
-    background-color: #d6f9db;
+    background-color: #99170396;
     justify-content: space-around;
+    padding: 1rem;
+    border: dotted;
+    border-width: .5rem;
+    border-color: #3C4054;
 }
 
 h1,
 nav {
     color: #3C4054;
-    font-size: 9rem;
+    font-size: 8rem;
     font-style: normal;
     font-weight: 700;
     display: flex;
@@ -90,7 +94,11 @@ footer{
     width:auto;
     height: 4rem;
     margin: auto;
-    background-color: #d6f9db;
+    background-color: #99170396;
+    padding: 1rem;
+    border: dotted;
+    border-width: .5rem;
+    border-color: #3C4054;
 }
 
 #splashlogo{
@@ -99,7 +107,7 @@ footer{
     justify-content: space-around;
     padding: 2rem;
     border-width: 4rem;
-    border-color:  #d6f9db;
+    border-color:  #99170396;
 }
 
 .selected{
@@ -114,6 +122,9 @@ footer{
 #project1{
     align-items: center;
     grid-column: 7/12;
+    background-color: #99170396;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 #description1{
@@ -124,6 +135,9 @@ footer{
 #project2{
     align-items: center;
     grid-column-start: 2;
+    background-color: #99170396;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -134,6 +148,9 @@ footer{
 #project3A{
     align-items: left;
     grid-column: 6/12;
+    background-color: #99170396;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 #description3{
@@ -149,7 +166,10 @@ footer{
 
 #project4{
     align-items: center;
-    grid-column: 12/24;
+    grid-column: 7/12;
+    background-color: #99170396;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 img{
@@ -162,3 +182,29 @@ img{
    align-items: center;
    justify-content: space-between;
 }
+
+#flo1{
+    grid-column: 1/20;
+    background-color: #99170396;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#flo2{
+    grid-column: 1/20;
+    background-color: #99170396;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#flo3{
+    grid-column: 1/12;
+    background-color: #99170396;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#flodescription {
+    grid-column-end: 24;
+}
+
