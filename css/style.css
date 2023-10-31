@@ -22,7 +22,7 @@ section{
     grid-auto-flow: dense;
     padding: 1rem;
     border: dotted #3C4054;
-    border-width: 1rem;
+    border-width: .5rem;
     justify-content: center;
 }
 
@@ -78,12 +78,12 @@ a{
 }
 
 a h2:hover{ 
-    color: #EEB079;
+    color: #d6f9db;
 }
 
 
 a h2:visited{
-    color: #EEB079;
+    color: #d6f9db;
 }
 
 nav{
@@ -211,7 +211,7 @@ img{
     grid-auto-flow: dense;
     padding: 1rem;
     border: dotted #3C4054;
-    border-width: 1rem;
+    border-width: .5rem;
 }
 
 #flo1{
