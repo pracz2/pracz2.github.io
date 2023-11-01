@@ -53,7 +53,15 @@ header{
     border-color: #3C4054;
 }
 
-h1,
+h1{
+    color: #3C4054;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
 nav {
     color: #3C4054;
     font-size: 8rem;
@@ -66,7 +74,7 @@ nav {
 
 h2{
     color: #3C4054;
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
 }
@@ -78,11 +86,6 @@ a{
 }
 
 a h2:hover{ 
-    color: #d6f9db;
-}
-
-
-a h2:visited{
     color: #d6f9db;
 }
 
@@ -109,6 +112,10 @@ main{
 
 .selected{
     color: #ea9c5893;
+}
+
+section .textright {
+    text-align: right;
 }
 
 #byline{
@@ -171,16 +178,18 @@ main{
 
 #description4{
     text-align: left;
-    grid-column: 4/12;
+    grid-column: 3/10;
 }
 
 #description4 h1, h2 {
     text-align: left;
 }
 
+
+
 #project4{
     align-items: center;
-    grid-column: 7/12;
+    grid-column: 6/11;
     background-color: #99170396;
     padding: 1rem;
     margin-top: 1rem;
@@ -195,10 +204,14 @@ img{
     max-height: 800px;
 }
 
+
 #bio{
-   display: flex;
+    display: flex;
+    grid-column: 20% 20% 20% 20% 20%;
+    grid-column-start: 3;
+    align-items: center;
     justify-content: center;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 
